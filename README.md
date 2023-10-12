@@ -15,7 +15,7 @@ For reference, please refer to https://typedb.com/docs/typedb/2.x/overview.html
 - Once we have our database created, we initialize the schema by selecting schema and write options on the taskbar. Run the schema file and commit it.
 - To write our data, run the data file and commit it.
 - This will create our TypeDB database.
-- The query file has some example queries mentioned which you can run to verify working of our code. Change our modes to data and read and run the query file to execute a query.
+- The query file has some example queries mentioned which you can run to verify working of our code. Change the modes to data and read and run the query file to execute a query.
 
 # Connecting with driver
 - For this, we are using TypeDB Python Driver. In layman's term, this will connect our python code to the TypeDB database and we can query our database from the python code itself.
