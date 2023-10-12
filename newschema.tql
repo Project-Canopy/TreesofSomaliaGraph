@@ -4,22 +4,22 @@ greens sub entity,
     abstract;
 
 tree sub greens,
-    owns bn,
-    owns cn,
-    owns region,        # somali, foreign or foreign_fruit
-    owns zone,
+    owns bn,           #botanical_name
+    owns cn,           #common_name / english_name
+    owns region,       #somali, foreign or foreign_fruit
+    owns zone,         #zones A,B,C,D,E
     owns rain_type,    #between and irrigated condition
     owns min_rain,     #min rainfall needed
-    owns max_rain,
-    owns min_alt,
-    owns max_alt,
-    owns uses;
+    owns max_rain,     #max rainfall needed
+    owns min_alt,      #min altitude needed  
+    owns max_alt,      #max altitude needed
+    owns uses;         #uses
 
 zone_desc sub greens,
-    owns zone_name,
-    owns rainfall,
-    owns altitude,
-    owns temp;
+    owns zone_name,    #zones A,B,C,D,E
+    owns rainfall,     #rainfall range for zone
+    owns altitude,     #altitude range for zone
+    owns temp;         #temperature range for zone
 
 #attributes
 name sub attribute, abstract, value string;
