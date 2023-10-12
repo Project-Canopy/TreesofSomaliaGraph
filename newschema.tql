@@ -1,0 +1,42 @@
+define
+#entities
+greens sub entity,
+    abstract;
+
+tree sub greens,
+    owns bn,
+    owns cn,
+    owns region,        # somali, foreign or foreign_fruit
+    owns zone,
+    owns rain_type,    #between and irrigated condition
+    owns min_rain,     #min rainfall needed
+    owns max_rain,
+    owns min_alt,
+    owns max_alt,
+    owns uses;
+
+zone_desc sub greens,
+    owns zone_name,
+    owns rainfall,
+    owns altitude,
+    owns temp;
+
+#attributes
+name sub attribute, abstract, value string;
+details sub attribute, abstract, value string;
+interval sub attribute, abstract, value string;
+levels sub attribute, abstract, value long;
+bn sub name;
+cn sub name;
+region sub details;
+rain_type sub details;
+min_rain sub levels;
+max_rain sub levels;
+min_alt sub levels;
+max_alt sub levels;
+zone sub details;
+zone_name sub details;
+rainfall sub interval;
+altitude sub interval;
+temp sub interval;
+uses sub details;

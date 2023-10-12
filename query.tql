@@ -1,0 +1,19 @@
+#match 
+#    $t isa tree; 
+#    $t has region "Somali"; 
+#    $t has botanical_name $b; 
+#    {$t has uses "Gums";} or {$t has uses "Fuel";};
+#get $b;
+
+#match $t isa tree; 
+#    $t has region "Somali";
+#    $t has zone "D";
+#    $t has bn $b; 
+#    $t has uses $a;
+#    $a "Dyes";
+#    $t has min_rain $r;
+#    $r > 150;
+#    $t has max_rain $m;
+#    $m <= 900;
+
+match $x isa tree; $x has bn $b; $x has uses $j; $x has min_rain < 100;
