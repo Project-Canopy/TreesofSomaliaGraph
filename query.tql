@@ -1,3 +1,4 @@
+#query to return just the botanical name given the conditions
 #match 
 #    $t isa tree; 
 #    $t has region "Somali"; 
@@ -5,6 +6,7 @@
 #    {$t has uses "Gums";} or {$t has uses "Fuel";};
 #get $b;
 
+#query to return values for all the variables that we have defined
 #match $t isa tree; 
 #    $t has region "Somali";
 #    $t has zone "D";
