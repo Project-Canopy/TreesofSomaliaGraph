@@ -3,8 +3,7 @@ Summarizes Tables 1-6 of Mahony's 1991 'Trees of Somalia' as a graph using TypeD
 
 # Installation
 For reference, please refer to https://typedb.com/docs/typedb/2.x/overview.html
-
-\\The process for MacOS is as below:
+<br>The process for MacOS is as below:
 - Install TypeDB Core: brew install typedb
 - Start the server through terminal: typedb server
 - Install TypeDB Studio: https://typedb.com/docs/clients/2.x/resources/downloads#_typedb_studio
